@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-这是一个pod仓库的简单demo
+你好！这是一个pod仓库的简单demo,请勿下载使用。
 DESC
 
   spec.homepage     = "https://github.com/Zmshan/XYTest"
@@ -64,12 +64,12 @@ DESC
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "8.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "8.0"
-  # spec.osx.deployment_target = "10.14"
+  # spec.osx.deployment_target = "10.8"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
@@ -91,7 +91,8 @@ DESC
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "XYTest/BZXYTest/BZXYTest/XYTool/**/*.{h,m}"
+  spec.source_files  = "BZXYTest/BZXYTest/XYTool", "XYTool/**/*.{h,m}"
+
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -117,7 +118,7 @@ DESC
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  # spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
