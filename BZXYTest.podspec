@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BZXYTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of BZXYTest."
+  spec.summary      = "CocoaPods组件化实践 BZXYTest."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,8 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			这是一个pod仓库的简单demo
-                   DESC
+这是一个pod仓库的简单demo
+DESC
 
   spec.homepage     = "https://github.com/Zmshan/XYTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Zmshan" => "838284530@qq.com" }
   # Or just: spec.author    = "Zmshan"
   # spec.authors            = { "Zmshan" => "838284530@qq.com" }
-  # spec.social_media_url   = "https://twitter.com/Zmshan"
+  # spec.social_media_url   = "https://github.com/Zmshan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "8.0"
-  # spec.osx.deployment_target = "10.7"
+  # spec.osx.deployment_target = "10.14"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
