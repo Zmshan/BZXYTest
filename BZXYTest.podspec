@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 你好！这是一个pod仓库的简单demo,请勿下载使用。
 DESC
 
-  spec.homepage     = "https://github.com/Zmshan/XYTest"
+  spec.homepage     = "https://github.com/Zmshan/BZXYTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Zmshan/XYTest.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Zmshan/BZXYTest.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
